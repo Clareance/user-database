@@ -1,0 +1,18 @@
+.addBtn{
+    color: #1677ff;
+    background-color: white;
+    border-color: #1677ff;
+    box-shadow: 0 2px 0 rgb(5 145 255 / 10%);
+}
+
+.searchBox{
+    width: 200px;
+    margin-bottom: 16px;
+}
+.actionBtn{
+    color: #1677ff;
+    border-color: #1677ff;
+    box-shadow: none;
+    background-color: white;
+    margin-right: 5px;
+}
