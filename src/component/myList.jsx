@@ -13,14 +13,14 @@ import {
 } from 'antd';
 import React, { useState,  useEffect } from "react";
 
-
+  
 const MyList = () => {
     const [data, setData] = useState(initialData)
     const [visible, setVisible] = useState(false) //用于控制修改modal是否显示
 
 
     
-    const [isAdding, setIsAdding] = useState(true); // 判断是新增还是编辑
+    const [isAdding, setIsAdding] = useState(false); // 判断是新增还是编辑
 
     const [searchUserName, setSearchUserName] = useState('');
     const [searchEmail, setSearchEmail] = useState('');
